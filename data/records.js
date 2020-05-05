@@ -108,10 +108,6 @@ var _file_records = {
   ssapjong: {
     2020: {
       5: {
-        6: {
-          file: "video",
-          active: true,
-        },
         5: {
           file: "video",
           active: true,
