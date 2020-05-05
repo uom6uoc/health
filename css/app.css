@@ -1,0 +1,49 @@
+#collapseAwards .item {
+  border-bottom: 1px solid #cccccc;
+  padding: 0.375rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#collapseAwards .item:first-child {
+  border-top: 1px solid #cccccc;
+}
+
+#collapseAwards .text {
+  font-weight: bold;
+  min-width: 130px;
+  padding: 0.375rem 0.3rem;
+  align-self: baseline;
+}
+
+#collapseAwards .icon {
+  font-size: 1.5rem;
+  color: #f6c23e;
+  flex: 0;
+  align-self: center;
+}
+#collapseAwards .icon.none {
+  color: transparent;
+}
+
+#collapseAwards .who {
+  font-size: 1rem;
+  color: #5a5c69;
+  flex: 1 1 0px;
+}
+
+#collapseAwards .title {
+  color: #5a5c69;
+  font-size: 1rem;
+  flex: 1 1 0px;
+}
+
+#collapseAwards .record {
+  color: #e74a3b;
+  flex: 1 1 0px;
+}
+
+#collapseAwards .time {
+  color: #e74a3b;
+  flex: 1 1 0px;
+}
