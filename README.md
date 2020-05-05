@@ -6,7 +6,7 @@ For the legacy Bootstrap 3 version of this theme, you can view the [last stable 
 
 ## Preview
 
-[![SUNGO HEALTH Preview](https://github.com/uom6uoc/health/preview/preview.png)](https://uom6uoc.github.io/health/)
+[![SUNGO HEALTH Preview](https://raw.githubusercontent.com/uom6uoc/health/master/preview/preview.png)](https://uom6uoc.github.io/health/)
 
 **[Launch Live Preview](https://uom6uoc.github.io/health/)**
 
