@@ -1,12 +1,12 @@
 #collapseAwards .item {
-  border-bottom: 1px solid #cccccc;
+  /* border-bottom: 1px solid #cccccc; */
   padding: 0.375rem 1rem;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
 #collapseAwards .item:first-child {
-  border-top: 1px solid #cccccc;
+  /* border-top: 1px solid #cccccc; */
 }
 
 #collapseAwards .text {

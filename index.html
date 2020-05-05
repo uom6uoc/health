@@ -111,22 +111,22 @@
                       <div class="col mr-2">
                         <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Record for month</div>
                         <!-- <div class="h5 mb-0 font-weight-bold text-gray-800"></div> -->
-                        <div class="row no-gutters align-items-center">
+                        <div class="row no-gutters align-items-center" id="monthRecords">
                           <div class="col-auto">
                             <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
-                              <span>96.7</span>
+                              <span class="monthPercent">96.7</span>
                               <span>%</span>
                             </div>
                           </div>
                           <div class="col">
                             <div class="progress progress-sm mr-2">
                               <div
-                                class="progress-bar bg-success"
+                                class="progress-bar monthProgress"
                                 role="progressbar"
-                                style="width: 96.7%;"
-                                aria-valuenow="29"
+                                style="width: 0%;"
+                                aria-valuenow="0"
                                 aria-valuemin="0"
-                                aria-valuemax="30"
+                                aria-valuemax="0"
                               ></div>
                             </div>
                           </div>
@@ -157,52 +157,7 @@
                   </a>
                   <!-- Card Content - Collapse -->
                   <div class="collapse show" id="collapseAwards">
-                    <div class="card-body">
-                      <div class="item">
-                        <span class="icon">
-                          <i class="fas fa-award"></i>
-                        </span>
-                        <span class="text who">쌕근</span>
-                        <span class="text title">3.6.9 슈퍼세트</span>
-                        <span class="icon none">
-                          <i class="fas fa-award"></i>
-                        </span>
-                        <span class="text record">3set</span>
-                        <span class="text time">1'46</span>
-                      </div>
-
-                      <div class="item">
-                        <span class="icon">
-                          <i class="fas fa-award"></i>
-                        </span>
-                        <span class="text who">과역</span>
-                        <span class="text title">10km 달리기</span>
-                        <span class="icon none">
-                          <i class="fas fa-award"></i>
-                        </span>
-                        <span class="text record">9.72km</span>
-                        <span class="text time">45'23</span>
-                      </div>
-
-                      <!-- <div class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-award"></i>
-                        </span>
-                        <span class="text who">쌕근</span>
-                        <span class="text title">3.6.9 슈퍼세트</span>
-                        <span class="text record">3set</span>
-                        <span class="text time">1'46</span>
-                      </div>
-                      <div class="btn btn-warning btn-icon-split">
-                        <span class="icon text-white-50">
-                          <i class="fas fa-award"></i>
-                        </span>
-                        <span class="text who">과역</span>
-                        <span class="text title">10km 달리기</span>
-                        <span class="text record">9.72km</span>
-                        <span class="text time">45'23</span>
-                      </div> -->
-                    </div>
+                    <div class="card-body"></div>
                   </div>
                 </div>
               </div>
@@ -213,97 +168,12 @@
               <!-- Content Column -->
               <div class="col-lg-12 mb-4">
                 <!-- Project Card Example -->
-                <div class="card shadow mb-4">
+                <div class="card shadow mb-4" id="membersRecords">
                   <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary">MONTH RECORDS FOR MEMBERS</h6>
-                    <div class="date">2020.05.05</div>
+                    <h6 class="m-0 font-weight-bold text-primary">MEMBERS</h6>
+                    <div class="recordDate">0000. 00. 00.</div>
                   </div>
-                  <div class="card-body">
-                    <h4 class="small font-weight-bold">
-                      최글
-                      <div class="float-right">[ <span>5</span> / <span>5</span> ]</div>
-                    </h4>
-                    <div class="progress mb-4">
-                      <div
-                        class="progress-bar bg-success"
-                        role="progressbar"
-                        style="width: 100%;"
-                        aria-valuenow="5"
-                        aria-valuemin="0"
-                        aria-valuemax="5"
-                      ></div>
-                    </div>
-                    <h4 class="small font-weight-bold">
-                      과역
-                      <div class="float-right">[ <span>5</span> / <span>5</span> ]</div>
-                    </h4>
-                    <div class="progress mb-4">
-                      <div
-                        class="progress-bar bg-success"
-                        role="progressbar"
-                        style="width: 100%;"
-                        aria-valuenow="5"
-                        aria-valuemin="0"
-                        aria-valuemax="5"
-                      ></div>
-                    </div>
-                    <h4 class="small font-weight-bold">
-                      망구
-                      <div class="float-right">[ <span>5</span> / <span>5</span> ]</div>
-                    </h4>
-                    <div class="progress mb-4">
-                      <div
-                        class="progress-bar bg-success"
-                        role="progressbar"
-                        style="width: 100%;"
-                        aria-valuenow="5"
-                        aria-valuemin="0"
-                        aria-valuemax="5"
-                      ></div>
-                    </div>
-                    <h4 class="small font-weight-bold">
-                      쌕근
-                      <div class="float-right">[ <span>5</span> / <span>5</span> ]</div>
-                    </h4>
-                    <div class="progress mb-4">
-                      <div
-                        class="progress-bar bg-success"
-                        role="progressbar"
-                        style="width: 100%;"
-                        aria-valuenow="5"
-                        aria-valuemin="0"
-                        aria-valuemax="5"
-                      ></div>
-                    </div>
-                    <h4 class="small font-weight-bold">
-                      쌉종
-                      <div class="float-right">[ <span>4</span> / <span>5</span> ]</div>
-                    </h4>
-                    <div class="progress mb-4">
-                      <div
-                        class="progress-bar bg-warning"
-                        role="progressbar"
-                        style="width: 80%;"
-                        aria-valuenow="4"
-                        aria-valuemin="0"
-                        aria-valuemax="5"
-                      ></div>
-                    </div>
-                    <h4 class="small font-weight-bold">
-                      핫재
-                      <div class="float-right">[ <span>5</span> / <span>5</span> ]</div>
-                    </h4>
-                    <div class="progress">
-                      <div
-                        class="progress-bar bg-success"
-                        role="progressbar"
-                        style="width: 100%;"
-                        aria-valuenow="5"
-                        aria-valuemin="0"
-                        aria-valuemax="5"
-                      ></div>
-                    </div>
-                  </div>
+                  <div class="card-body"></div>
                 </div>
 
                 <!-- Color System -->
@@ -422,8 +292,16 @@
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+    <!-- DATA FILE -->
+    <script src="data/awards.js"></script>
+    <script src="data/members.js"></script>
+    <script src="data/records.js"></script>
+
     <!-- Custom scripts for all pages-->
+    <script src="js/common.js"></script>
     <script src="js/sb-admin-2.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/app.js"></script>
 
     <!-- Page level plugins -->
     <script src="vendor/chart.js/Chart.min.js"></script>
