@@ -74,6 +74,7 @@
         result.activeCount++;
       } else if (data[dataKey].active === false) {
         result.inactiveDays.unshift(dataKey.toString());
+      } else if (data[dataKey].active === "wait") {
       } else if (data[dataKey].active === "new") {
         result.passCount++;
       } else {
