@@ -35,4 +35,10 @@ var _file_members = {
     name: "핫재",
     startDay: "2020. 5. 2.",
   },
+   holtti: {
+    active: true,
+    id: "7",
+    name: "홀띠",
+    startDay: "2020. 5. 5.",
+  }
 };
