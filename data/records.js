@@ -150,6 +150,18 @@ var _file_records = {
           file: "photo",
           active: true,
         },
+        1: {
+          active: "new",
+        },
+      },
+    },
+  },
+  holtti : {
+    2020: {
+      5: {
+        5: {
+          active: "new",
+        },
       },
     },
   },
