@@ -65,7 +65,7 @@
     var result = {
       activeCount: 0,
       inactiveDays: [],
-      passCount : 0,
+      passCount: 0,
     };
     var dataKeyArray = Object.keys(data);
     for (var idx = 0; idx < dataKeyArray.length; idx++) {
@@ -76,8 +76,9 @@
         result.inactiveDays.unshift(dataKey.toString());
       } else if (data[dataKey].active === "new") {
         result.passCount++;
-       } else {
+      } else {
         result.passCount++;
+        console.warn(data[dataKey].active);
       }
     }
     return result;
