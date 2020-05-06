@@ -65,6 +65,7 @@
     var result = {
       activeCount: 0,
       inactiveDays: [],
+      passCount : 0,
     };
     var dataKeyArray = Object.keys(data);
     for (var idx = 0; idx < dataKeyArray.length; idx++) {
@@ -73,9 +74,10 @@
         result.activeCount++;
       } else if (data[dataKey].active === false) {
         result.inactiveDays.unshift(dataKey.toString());
-      } else {
-        // TODO
-        console.warn("TODO");
+      } else if (data[dataKey].active === "new") {
+        result.passCount++;
+       } else {
+        result.passCount++;
       }
     }
     return result;
@@ -103,7 +105,8 @@
       var targetData = _file_records[member][year][month];
       var targetCount = countActive(targetData);
       var name = activers[member];
-      var allCount = Object.keys(targetData).length;
+      var passCount = targetCount.passCount;
+      var allCount = Object.keys(targetData).length - passCount;
       var activeCount = targetCount.activeCount;
       var percent = cm.getPercent(allCount, activeCount, 1);
       var barColor = getBarColor(percent);
