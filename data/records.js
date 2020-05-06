@@ -4,7 +4,7 @@ var _file_records = {
   choigeul: {
     2020: {
       5: {
-        6: { file: "photo", active: "wait" },
+        6: { file: "video", active: true },
         5: { file: "video", active: true },
         4: { file: "video", active: true },
         3: { file: "photo", active: true },
@@ -34,7 +34,7 @@ var _file_records = {
   manggu: {
     2020: {
       5: {
-        6: { file: "video", active: "wait" },
+        6: { file: "video", active: true },
         5: { file: "video", active: true },
         4: { file: "video", active: true },
         3: { file: "video", active: true },
@@ -79,7 +79,7 @@ var _file_records = {
   hotjae: {
     2020: {
       5: {
-        6: { file: "photo", active: "wait" },
+        6: { file: "photo", active: true },
         5: { file: "photo", active: true },
         4: { file: "photo", active: true },
         3: { file: "photo", active: true },
