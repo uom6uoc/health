@@ -5,7 +5,15 @@ var _file_awards = [
     who: "최글",
     title: "턱걸이",
     record: "12개",
-    time: "30'00",
+    time: "30s",
+  },
+  {
+    name: "gwayeok",
+    data: "2020. 5. 5.",
+    who: "과역",
+    title: "플랭크",
+    record: "",
+    time: "5m 10s",
   },
   {
     name: "gwayeok",
@@ -13,7 +21,7 @@ var _file_awards = [
     who: "과역",
     title: "10km 마라톤",
     record: "9.72km",
-    time: "45:23",
+    time: "45h 23m",
   },
   {
     name: "ssaekgeun",
@@ -21,6 +29,6 @@ var _file_awards = [
     who: "쌕근",
     title: "3.6.9 슈퍼세트",
     record: "3set",
-    time: "1'46",
+    time: "1m 46s",
   },
 ];
