@@ -1,6 +1,6 @@
 var _file_awards = [
   {
-    name: "choiguel",
+    name: "choigeul",
     data: "2020. 5. 7.",
     who: "최글",
     title: "턱걸이",
