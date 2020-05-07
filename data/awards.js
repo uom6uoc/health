@@ -12,8 +12,8 @@ var _file_awards = [
     data: "2020. 5. 5.",
     who: "과역",
     title: "플랭크",
-    record: "",
-    time: "5m 10s",
+    record: "5m 10s",
+    time: "",
   },
   {
     name: "gwayeok",
