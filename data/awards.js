@@ -5,7 +5,7 @@ var _file_awards = [
     who: "최글",
     title: "턱걸이",
     record: "12개",
-    time: "30:00",
+    time: "30'00",
   },
   {
     name: "gwayeok",
@@ -21,6 +21,6 @@ var _file_awards = [
     who: "쌕근",
     title: "3.6.9 슈퍼세트",
     record: "3set",
-    time: "1:46",
+    time: "1'46",
   },
 ];
