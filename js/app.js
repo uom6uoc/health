@@ -36,7 +36,7 @@
         .replace(/@title/g, _file_awards[idx].title)
         .replace(/@record/g, _file_awards[idx].record)
         .replace(/@time/g, _file_awards[idx].time);
-      result = html + result;
+      result = result + html;
     }
     $("#collapseAwards .card-body").html(result);
   }
