@@ -4,8 +4,8 @@ var _file_awards = [
     data: "2020. 5. 7.",
     who: "최글",
     title: "턱걸이",
-    record: "12개",
-    time: "30s",
+    record: "-",
+    time: "16개",
   },
   {
     name: "gwayeok",
