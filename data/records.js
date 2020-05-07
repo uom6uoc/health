@@ -1,9 +1,10 @@
-var _file_record_date = "2020. 5. 6.";
+var _file_record_date = "2020. 5. 7.";
 
 var _file_records = {
   choigeul: {
     2020: {
       5: {
+        7: { file: "", active: true },
         6: { file: "video", active: true },
         5: { file: "video", active: true },
         4: { file: "video", active: true },
@@ -19,6 +20,7 @@ var _file_records = {
   gwayeok: {
     2020: {
       5: {
+        7: { file: "", active: true },
         6: { file: "photo", active: true },
         5: { file: "video", active: true },
         4: { file: "photo", active: true },
@@ -34,6 +36,7 @@ var _file_records = {
   manggu: {
     2020: {
       5: {
+        7: { file: "", active: true },
         6: { file: "video", active: true },
         5: { file: "video", active: true },
         4: { file: "video", active: true },
@@ -49,6 +52,7 @@ var _file_records = {
   ssaekgeun: {
     2020: {
       5: {
+        7: { file: "", active: true },
         6: { file: "video", active: true },
         5: { file: "video", active: true },
         4: { file: "video", active: true },
@@ -64,6 +68,7 @@ var _file_records = {
   ssapjong: {
     2020: {
       5: {
+        7: { file: "", active: true },
         6: { file: "photo", active: true },
         5: { file: "video", active: true },
         4: { file: "video", active: true },
@@ -79,6 +84,7 @@ var _file_records = {
   hotjae: {
     2020: {
       5: {
+        7: { file: "", active: "leave" },
         6: { file: "photo", active: true },
         5: { file: "photo", active: true },
         4: { file: "photo", active: true },
@@ -91,6 +97,7 @@ var _file_records = {
   holtti: {
     2020: {
       5: {
+        7: { file: "", active: true },
         6: { file: "photo", active: true },
         5: { active: "new" },
       },

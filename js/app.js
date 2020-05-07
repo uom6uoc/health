@@ -72,10 +72,13 @@
       var dataKey = dataKeyArray[idx];
       if (data[dataKey].active === true) {
         result.activeCount++;
+      } else if (data[dataKey].active === "new") {
+        result.activeCount++;
+      } else if (data[dataKey].active === "join") {
+        result.activeCount++;
       } else if (data[dataKey].active === false) {
         result.inactiveDays.unshift(dataKey.toString());
-      } else if (data[dataKey].active === "wait") {
-      } else if (data[dataKey].active === "new") {
+      } else if (data[dataKey].active === "leave") {
         result.passCount++;
       } else {
         result.passCount++;

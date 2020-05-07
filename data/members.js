@@ -30,7 +30,7 @@ var _file_members = {
     startDay: "2020. 5. 1.",
   },
   hotjae: {
-    active: true,
+    active: false,
     id: "6",
     name: "핫재",
     startDay: "2020. 5. 2.",
