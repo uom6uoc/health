@@ -98,8 +98,7 @@ var _file_records = {
     2020: {
       5: {
         7: { file: "", active: true },
-        6: { file: "photo", active: true },
-        5: { active: "new" },
+        6: { file: "photo", active: "new" },
       },
     },
   },
