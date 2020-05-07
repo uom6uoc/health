@@ -1,5 +1,13 @@
 var _file_awards = [
   {
+    name: "choiguel",
+    data: "2020. 5. 7.",
+    who: "최글",
+    title: "턱걸이",
+    record: "12개",
+    time: "30:00",
+  },
+  {
     name: "gwayeok",
     data: "2020. 5. 4.",
     who: "과역",
