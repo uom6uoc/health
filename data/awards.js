@@ -1,10 +1,10 @@
 var _file_awards = [
   {
     name: "choigeul",
-    date: "2020. 5. 7.",
+    date: "2020. 5. 10.",
     who: "최글",
     title: "턱걸이",
-    record: "16개",
+    record: "19개",
   },
   {
     name: "ssaekgeun",
