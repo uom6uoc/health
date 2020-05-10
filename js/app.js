@@ -1,4 +1,4 @@
-(function (root) {
+(function(root) {
   "use strict"; // Start of use strict
 
   var app = {};
@@ -35,7 +35,7 @@
         .replace(/@who/g, _file_awards[idx].who)
         .replace(/@title/g, _file_awards[idx].title)
         .replace(/@record/g, _file_awards[idx].record)
-        .replace(/@time/g, _file_awards[idx].time);
+        .replace(/@date/g, _file_awards[idx].date);
       result = result + html;
     }
     $("#collapseAwards .card-body").html(result);
@@ -133,7 +133,7 @@
   // ================================
   // SET UI
   // ================================
-  app.init = function () {
+  app.init = function() {
     // AWARDS UI
     setAwardsHtml();
 

@@ -43,7 +43,7 @@
   flex: 1 1 0px;
 }
 
-#collapseAwards .time {
-  color: #e74a3b;
+#collapseAwards .date {
+  font-size: 0.7rem;
   flex: 1 1 0px;
 }

@@ -1,4 +1,4 @@
-(function (root) {
+(function(root) {
   "use strict"; // Start of use strict
 
   var templete = {};
@@ -13,7 +13,7 @@
       <i class="fas fa-award"></i>
     </span>
     <span class="text record">@record</span>
-    <span class="text time">@time</span>
+    <span class="text date">@date</span>
   </div>`;
 
   templete.memberRecords = `  <h4 class="small font-weight-bold">
