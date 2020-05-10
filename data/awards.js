@@ -24,8 +24,9 @@ var _file_awards = [
     name: "gwayeok",
     date: "2020. 5. 4.",
     who: "과역",
-    title: "10km 마라톤",
-    record: "45h 23m",
+    title: "달리기",
+    record: "9.72km",
+    time: "45h 23m",
   },
   {
     name: "gwayeok",
