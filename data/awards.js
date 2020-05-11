@@ -42,11 +42,4 @@ var _file_awards = [
     title: "플랭크",
     record: "5m 10s",
   },
-  {
-    name: "gwayeok",
-    date: "2020. 5. 2.",
-    who: "과역",
-    title: "푸쉬업",
-    record: "44개",
-  },
 ];
