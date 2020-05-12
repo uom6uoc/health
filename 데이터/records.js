@@ -1,4 +1,4 @@
-var _file_record_date = "2020. 5. 11.";
+var _file_record_date = "2020. 5. 12.";
 
 var _file_records = {
   choigeul: {
