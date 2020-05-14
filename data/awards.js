@@ -1,5 +1,12 @@
 var _file_awards = [
   {
+    name: "ssaekgeun",
+    date: "2020. 5. 14.",
+    who: "쌕근",
+    title: "푸쉬업",
+    record: "59개",
+  },
+  {
     name: "gwayeok",
     date: "2020. 5. 11.",
     who: "과역",
@@ -13,13 +20,6 @@ var _file_awards = [
     who: "망구",
     title: "스쿼트",
     record: "206개",
-  },
-  {
-    name: "ssaekgeun",
-    date: "2020. 5. 11.",
-    who: "쌕근",
-    title: "푸쉬업",
-    record: "50개",
   },
   {
     name: "choigeul",
