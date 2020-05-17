@@ -16,11 +16,8 @@
     <span class="text date">@date</span>
   </div>`;
 
-  templete.memberRecords = `  <h4 class="small font-weight-bold">
-    @name
-    <div class="float-right">[ <span>@activeCount</span> / <span>@allCount</span> ]</div>
-  </h4>
-  <div class="progress mb-4">
+  templete.memberRecords = `  <h4 class="small font-weight-bold">@name<div class="float-right">[ <span>@activeCount</span> / <span>@allCount</span> ]</div></h4>
+  <div class="progress">
     <div
       class="progress-bar @barColor"
       role="progressbar"
@@ -29,7 +26,10 @@
       aria-valuemin="0"
       aria-valuemax="@allCount"
     ></div>
-  </div>`;
+  </div>
+  <div class="inactive mb-4">@inactiveDays</div>`;
+
+  templete.inactiveDays = '<div class="warning_card">@day</div>';
 
   root.templete = templete;
 })(this);
