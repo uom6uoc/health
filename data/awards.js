@@ -1,10 +1,24 @@
 var _file_awards = [
   {
     name: "ssaekgeun",
-    date: "2020. 5. 14.",
+    date: "2020. 5. 17.",
     who: "쌕근",
     title: "푸쉬업",
-    record: "59개",
+    record: "63개",
+  },
+  {
+    name: "choigeul",
+    date: "2020. 5. 16.",
+    who: "최글",
+    title: "턱걸이",
+    record: "20개",
+  },
+  {
+    name: "gwayeok",
+    date: "2020. 5. 15.",
+    who: "과역",
+    title: "스쿼트",
+    record: "276개",
   },
   {
     name: "gwayeok",
@@ -13,27 +27,6 @@ var _file_awards = [
     title: "달리기",
     record: "10.76km",
     time: "45h 23m",
-  },
-  {
-    name: "manggu",
-    date: "2020. 5. 11.",
-    who: "망구",
-    title: "스쿼트",
-    record: "206개",
-  },
-  {
-    name: "choigeul",
-    date: "2020. 5. 10.",
-    who: "최글",
-    title: "턱걸이",
-    record: "19개",
-  },
-  {
-    name: "ssaekgeun",
-    date: "2020. 5. 6.",
-    who: "쌕근",
-    title: "3.6.9 슈퍼세트",
-    record: "4set",
   },
   {
     name: "gwayeok",
