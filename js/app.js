@@ -190,6 +190,9 @@
     var result = "";
     var inactiveEl = templete.inactiveDays;
     if (days.length > 0) {
+      if (days.length > 6) {
+        days.length = 6;
+      }
       for (var idx = 0; idx < days.length; idx++) {
         result += inactiveEl.replace(/@day/g, days[idx] + "일");
       }
