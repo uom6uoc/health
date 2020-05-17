@@ -22,14 +22,6 @@ var _file_awards = [
   },
   {
     name: "gwayeok",
-    date: "2020. 5. 11.",
-    who: "과역",
-    title: "달리기",
-    record: "10.76km",
-    time: "45h 23m",
-  },
-  {
-    name: "gwayeok",
     date: "2020. 5. 5.",
     who: "과역",
     title: "플랭크",
