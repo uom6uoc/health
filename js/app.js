@@ -176,7 +176,7 @@
         .replace(/@activeCount/g, activeCount)
         .replace(/@percent/g, percent)
         .replace(/@barColor/g, barColor)
-        .replace(/@inactiveDays/g, inactiveDays);
+        .replace(/@inactiveDays/g, "");
       result = result + html;
 
       monthAllCount = monthAllCount + allCount;
