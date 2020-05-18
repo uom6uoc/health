@@ -27,4 +27,18 @@ var _file_awards = [
     title: "플랭크",
     record: "5m 10s",
   },
+    {
+    name: "gwayeok",
+    date: "2020. 5. ?.",
+    who: "과역",
+    title: "5km 달리기",
+    record: "확인 중",
+  },
+  {
+    name: "gwayeok",
+    date: "2020. 5. ?.",
+    who: "과역",
+    title: "ab 롤업",
+    record: "확인 중",
+  },
 ];
