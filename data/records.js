@@ -12,6 +12,14 @@ var example = {
 var _file_records = {
   2020: {
     5: {
+      20: {
+        choigeul: { active: true, exercise: { something: "푸셥, 스쿼트, 턱걸이, 라이딩" } },
+        gwayeok: { active: true, exercise: { sit_plank: [150], something: "풋살" } },
+        manggu: { active: true, exercise: { squat: [217] } },
+        ssaekgeun: { active: true, exercise: { military_press: [4, 100] } },
+        ssapjong: { active: true, exercise: { running: [432, 1.5] } },
+        holtti: { active: true, exercise: { sit_plank: [30], chinup: [3], nagative: 6, ab_rollout: [20] } },
+      },
       19: {
         choigeul: { active: true, exercise: { pushup: [20] } },
         gwayeok: { active: true, exercise: { sit_plank: [115] } },
@@ -20,7 +28,6 @@ var _file_records = {
         ssapjong: { active: true, exercise: { running: [252, 1.0] } },
         holtti: { active: true, exercise: { running: [20], chinup: [3] } },
       },
-
       18: {
         choigeul: { active: true, exercise: { squat: [22] } },
         gwayeok: { active: true, exercise: { pushup: [13] } },
@@ -163,7 +170,7 @@ var _file_records = {
         choigeul: { active: "join", exercise: { nagative: [1] } },
         gwayeok: { active: "join", exercise: { walking: [16.16] } },
         manggu: { active: "join", exercise: { plank: [35] } },
-        ssaekgeun: { active: "join", exercise: { military_press: [2, 90] } },
+        ssaekgeun: { active: "join", exercise: { military_press: [2, 100] } },
         ssapjong: { active: "join", exercise: { situp: [30] } },
       },
     },

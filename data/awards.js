@@ -1,10 +1,10 @@
 var _file_awards = [
   {
     name: "gwayeok",
-    date: "2020. 5. 19.",
+    date: "2020. 5. 20.",
     who: "과역",
     title: "기마자세",
-    record: "1m 55s",
+    record: "2m 30s",
   },
   {
     name: "ssaekgeun",
