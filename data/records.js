@@ -19,7 +19,7 @@ var _file_records = {
     ssaekgeun: { active: true, exercise: {} },
     ssapjong: { active: true, exercise: {} },
     holtti: { active: true, exercise: {} },
-  }
+  },
   26: {
     choigeul: { active: true, exercise: {} },
     gwayeok: { active: true, exercise: {} },
