@@ -1,5 +1,18 @@
 var example = {
   0: {
+    choigeul: { active: true, exercise: {ab_rollout: [11],chinup: [20]},hanginglegrase: [15] },
+    gwayeok: { active: true, exercise: {ab_rollout: [45],hanginglegrase: [26],pushup: [50] } },
+    manggu: { active: true, exercise: {pushup: [13]} },
+    ssaekgeun: { active: true, exercise: {chinup: [15]} },
+    ssapjong: { active: true, exercise: {chinup: [4]} },
+    holtti: { active: true, exercise: {ab_rollout: [39],pushup: [35]} },
+  },
+};
+
+var _file_records = {
+  2020: {
+    6: {
+  2: {
     choigeul: { active: true, exercise: {} },
     gwayeok: { active: true, exercise: {} },
     manggu: { active: true, exercise: {} },
@@ -7,11 +20,6 @@ var example = {
     ssapjong: { active: true, exercise: {} },
     holtti: { active: true, exercise: {} },
   },
-};
-
-var _file_records = {
-  2020: {
-    6: {
   1: {
     choigeul: { active: true, exercise: {} },
     gwayeok: { active: true, exercise: {} },
