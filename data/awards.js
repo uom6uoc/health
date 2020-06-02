@@ -18,7 +18,7 @@ var _file_awards = [
     date: "2020. 6. 1.",
     who: "망구",
     title: "푸쉬업",
-    record: "12개",
+    record: "11개",
   },
   {
     name: "none",
