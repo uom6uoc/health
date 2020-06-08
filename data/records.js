@@ -12,6 +12,14 @@ var example = {
 var _file_records = {
   2020: {
     6: {
+  8: {
+    choigeul: { active: true, exercise: {pushup: [13]} },
+    gwayeok: { active: true, exercise: {running: [9.26, 2599]} },
+    manggu: { active: false, exercise: {} },
+    ssaekgeun: { active: true, exercise: {pushup: [10]} },
+    ssapjong: { active: true, exercise: {chinup: [8]} },
+    holtti: { active: true, exercise: {pushup: [1]} },
+  },
       7: {
         choigeul: { active: true, exercise: { squat: [11] } },
         gwayeok: { active: true, exercise: { pushup: [25] } },
@@ -25,7 +33,7 @@ var _file_records = {
         gwayeok: { active: true, exercise: { squat: [50] } },
         manggu: { active: true, exercise: { bridgeupdown: [102] } },
         ssaekgeun: { active: true, exercise: { chinup: [22] } },
-        ssapjong: { active: true, exercise: { chinup: [10] } },
+        ssapjong: { active: true, exercise: { pushup: [10] } },
         holtti: { active: true, exercise: { pushup: [20] } },
       },
       5: {
