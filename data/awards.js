@@ -28,6 +28,13 @@ var _file_awards = [
     record: "159개",
   },
   {
+    name: "riding",
+    date: "2020. 6. 3.",
+    who: "최글",
+    title: "라이딩",
+    record: "18.07km",
+  },
+  {
     name: "pushup",
     date: "2020. 6. 3.",
     who: "썍근",
