@@ -1,5 +1,12 @@
 var _file_awards = [
   {
+    name: "running",
+    date: "2020. 6. 8.",
+    who: "과역",
+    title: "5km달리기",
+    record: "4'40",
+  },
+  {
     name: "dips",
     date: "2020. 6. 7.",
     who: "썍근",
@@ -61,12 +68,5 @@ var _file_awards = [
     who: "쌕근",
     title: "밀리터리 프레스",
     record: "9개",
-  },
-  {
-    name: "running",
-    date: "2020. 6. 1.",
-    who: "과역",
-    title: "5km달리기",
-    record: "5'37",
-  },
+  }
 ];
