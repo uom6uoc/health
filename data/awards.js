@@ -1,5 +1,33 @@
 var _file_awards = [
   {
+    name: "pushup",
+    date: "2020. 6. 12.",
+    who: "썍근",
+    title: "푸쉬업",
+    record: "65개",
+  },
+  {
+    name: "crunch",
+    date: "2020. 6. 12.",
+    who: "과역",
+    title: "크런치",
+    record: "15",
+  },
+  {
+    name: "chinup",
+    date: "2020. 6. 11.",
+    who: "최글",
+    title: "턱걸이",
+    record: "23개",
+  },
+  {
+    name: "super_369",
+    date: "2020. 6. 10.",
+    who: "썍근",
+    title: "369 슈퍼세트",
+    record: "3개",
+  },
+  {
     name: "running",
     date: "2020. 6. 8.",
     who: "과역",
@@ -12,13 +40,6 @@ var _file_awards = [
     who: "썍근",
     title: "딥스",
     record: "12개",
-  },
-  {
-    name: "chinup",
-    date: "2020. 6. 6.",
-    who: "썍근",
-    title: "턱걸이",
-    record: "22개",
   },
   {
     name: "squat",
@@ -41,13 +62,7 @@ var _file_awards = [
     title: "라이딩",
     record: "18.07km",
   },
-  {
-    name: "pushup",
-    date: "2020. 6. 3.",
-    who: "썍근",
-    title: "푸쉬업",
-    record: "60개",
-  },
+
   {
     name: "ab_rollout",
     date: "2020. 6. 3.",
@@ -68,5 +83,5 @@ var _file_awards = [
     who: "쌕근",
     title: "밀리터리 프레스",
     record: "9개",
-  }
+  },
 ];
