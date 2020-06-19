@@ -64,3 +64,8 @@
 #membersRecords .progress {
   background: #ff2222;
 }
+#membersRecords .bg-danger {
+  background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ec008c, #fc6767); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ec008c, #fc6767);
+}
