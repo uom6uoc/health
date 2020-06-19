@@ -62,7 +62,6 @@
   margin: 0 0.15rem;
 }
 #membersRecords .progress {
-  background: #ff2222;
 }
 #membersRecords .bg-danger {
   background: #833ab4;  /* fallback for old browsers */
