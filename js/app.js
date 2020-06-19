@@ -13,8 +13,8 @@
       CRITICAL: 80,
     },
     MEMBER: {
-      WARNING: 80,
-      CRITICAL: 50,
+      WARNING: 99.99999,
+      CRITICAL: 99.999,
     },
   };
 
