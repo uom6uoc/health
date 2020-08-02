@@ -19,7 +19,7 @@ var _file_records = {
     ssapjong: { active: true, exercise: {} },
     holtti: { active: true, exercise: {} },
   },
-       }
+       },
     7: {
   31: {
     choigeul: { active: true, exercise: {} },
