@@ -15,6 +15,7 @@ var _file_records = {
   1: {
     choigeul: { active: true, exercise: {} },
     gwayeok: { active: true, exercise: {} },
+    manggu: { active: false, exercise: {} },
     ssaekgeun: { active: true, exercise: {} },
     ssapjong: { active: true, exercise: {} },
     holtti: { active: true, exercise: {} },
