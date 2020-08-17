@@ -12,6 +12,14 @@ var example = {
 var _file_records = {
   2020: {
     8: {
+  16: {
+    choigeul: { active: true, exercise: {} },
+    gwayeok: { active: true, exercise: {} },
+    manggu: { active: true, exercise: {} },
+    ssaekgeun: { active: true, exercise: {} },
+    ssapjong: { active: true, exercise: {} },
+    holtti: { active: true, exercise: {} },
+  },
   15: {
     choigeul: { active: true, exercise: {} },
     gwayeok: { active: true, exercise: {} },
